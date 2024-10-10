@@ -1,0 +1,83 @@
+.column {
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 12px;
+    margin-right: 16px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 8px;
+}
+
+.column-title {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.column-title-text {
+    margin-right: 6px;
+}
+
+.card-count {
+    font-size: 12px;
+    color: #666666;
+}
+
+.user-initials {
+    background-color: #ff6347;
+    color: #ffffff;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.status-icon,
+.priority-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.column-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.cards-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-right: 4px;
+    max-height: calc(100% - 40px);
+}
+
+.cards-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.cards-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.cards-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}

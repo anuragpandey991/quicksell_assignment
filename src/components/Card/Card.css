@@ -1,0 +1,84 @@
+.card {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-id {
+    font-size: 10px;
+    color: #6b6b6b;
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 4px 0;
+    color: #2d2d2d;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 10px;
+}
+
+.priority-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.card-tag {
+    background-color: #f0f0f0;
+    color: #6b6b6b;
+    border-radius: 4px;
+    padding: 1px 4px;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.card-user {
+    display: flex;
+    align-items: center;
+}
+
+.card-user-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-user-initials {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 10px;
+}
